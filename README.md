@@ -1,6 +1,6 @@
 # My360VRPlayer for iOS
 
-![My360VRPlayer](https://is2-ssl.mzstatic.com/image/thumb/Purple19/v4/43/32/df/4332dffe-4c43-bdfb-b5bc-0a5d1a8d6fcb/pr_source.png/246x0w.jpg)
+![My360VRPlayer](360player/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png "My360VRPlayer")
 
 ## Setting Up
 
