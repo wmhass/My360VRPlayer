@@ -8,8 +8,6 @@ This project uses `cocoapods` to manage libraries dependencies. Although either 
 
 [Library file size discussion](https://github.com/googlevr/gvr-ios-sdk/issues/202)
 
-To get started with this project
-
 To use this project, you will need the following instaled on your machine:
 
 * Xcode 8 or later
@@ -43,10 +41,10 @@ To use this project, you will need the following instaled on your machine:
 #### Albuns view (Initial view)
 
 * Model
-	- `AlbumViewModel`
-	- `AlbunsDataSet`
+	- `AlbumViewModel` - Stores an Album information, such as album name and a list of its assets.
+	- `AlbunsDataSet` - Manages and store a list of Albuns. Provides methods to access Albuns' informations.
 * UI
-	- `AlbumCollectionViewCell`
+	- `AlbumCollectionViewCell` - Subclass of `UICollectionViewCell` built to display an Album information inside a collection view. Contains an image that shows the latest photo from the given Album, an icon indicating if it is a Favorite Album, the name of the Album and how many assets it contains.
 	- `AlbumCollectionViewHeader`
 	- `AlbunsViewController`
 * Protocols
