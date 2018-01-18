@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D0054A31DED024A00DC967C /* Photo360VRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0054A21DED024A00DC967C /* Photo360VRViewController.m */; };
+		3D0054A71DED09EA00DC967C /* DateComponentsFormatter+Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0054A61DED09EA00DC967C /* DateComponentsFormatter+Helper.swift */; };
+		3D1CF76A1DE8E3CB00BEA21F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF7691DE8E3CB00BEA21F /* AppDelegate.swift */; };
+		3D1CF76F1DE8E3CB00BEA21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1CF76D1DE8E3CB00BEA21F /* Main.storyboard */; };
+		3D1CF7711DE8E3CB00BEA21F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D1CF7701DE8E3CB00BEA21F /* Assets.xcassets */; };
+		3D1CF7741DE8E3CB00BEA21F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D1CF7721DE8E3CB00BEA21F /* LaunchScreen.storyboard */; };
+		3D1CF77F1DEA7DC700BEA21F /* AlbunsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF77E1DEA7DC700BEA21F /* AlbunsViewController.swift */; };
+		3D1CF7811DEA7DE800BEA21F /* AlbunsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF7801DEA7DE800BEA21F /* AlbunsPresenter.swift */; };
+		3D1CF7841DEA7E0B00BEA21F /* AlbunsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF7831DEA7E0B00BEA21F /* AlbunsInteractor.swift */; };
+		3D1CF7861DEA7E1600BEA21F /* AlbunsModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1CF7851DEA7E1600BEA21F /* AlbunsModuleProtocols.swift */; };
+		3DFB1BE91DEA8B0700372198 /* AlbumCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BE81DEA8B0700372198 /* AlbumCollectionViewCell.swift */; };
+		3DFB1BEB1DEB368B00372198 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BEA1DEB368B00372198 /* AlbumViewModel.swift */; };
+		3DFB1BF01DEB3D3000372198 /* AlbumItemsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BEF1DEB3D3000372198 /* AlbumItemsViewController.swift */; };
+		3DFB1BF41DEB4AB000372198 /* AlbumItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BF31DEB4AB000372198 /* AlbumItemCollectionViewCell.swift */; };
+		3DFB1BF61DEB56F600372198 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BF51DEB56F600372198 /* Storyboard.swift */; };
+		3DFB1BF81DEB79EC00372198 /* AlbumItemsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BF71DEB79EC00372198 /* AlbumItemsPresenter.swift */; };
+		3DFB1BFA1DEB7A0000372198 /* AlbumItemsModuleProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BF91DEB7A0000372198 /* AlbumItemsModuleProtocols.swift */; };
+		3DFB1BFC1DEB8BE200372198 /* AlbunsDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BFB1DEB8BE200372198 /* AlbunsDataSet.swift */; };
+		3DFB1C001DEB940E00372198 /* AlbumCollectionViewHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1BFF1DEB940E00372198 /* AlbumCollectionViewHeader.swift */; };
+		3DFB1C0D1DEBD3F900372198 /* Video360VRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFB1C0C1DEBD3F900372198 /* Video360VRViewController.m */; };
+		E9E0B983CA2D03B7E744FE33 /* libPods-360player.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 422609199BC38162819083D9 /* libPods-360player.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3D0054A11DED024A00DC967C /* Photo360VRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Photo360VRViewController.h; sourceTree = "<group>"; };
+		3D0054A21DED024A00DC967C /* Photo360VRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Photo360VRViewController.m; sourceTree = "<group>"; };
+		3D0054A61DED09EA00DC967C /* DateComponentsFormatter+Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DateComponentsFormatter+Helper.swift"; sourceTree = "<group>"; };
+		3D1CF7661DE8E3CB00BEA21F /* 360player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 360player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D1CF7691DE8E3CB00BEA21F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D1CF76E1DE8E3CB00BEA21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D1CF7701DE8E3CB00BEA21F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3D1CF7731DE8E3CB00BEA21F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3D1CF7751DE8E3CB00BEA21F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D1CF77B1DE9C3A300BEA21F /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		3D1CF77E1DEA7DC700BEA21F /* AlbunsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbunsViewController.swift; sourceTree = "<group>"; };
+		3D1CF7801DEA7DE800BEA21F /* AlbunsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbunsPresenter.swift; sourceTree = "<group>"; };
+		3D1CF7831DEA7E0B00BEA21F /* AlbunsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbunsInteractor.swift; sourceTree = "<group>"; };
+		3D1CF7851DEA7E1600BEA21F /* AlbunsModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbunsModuleProtocols.swift; sourceTree = "<group>"; };
+		3DFB1BE81DEA8B0700372198 /* AlbumCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFB1BEA1DEB368B00372198 /* AlbumViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		3DFB1BEF1DEB3D3000372198 /* AlbumItemsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumItemsViewController.swift; sourceTree = "<group>"; };
+		3DFB1BF31DEB4AB000372198 /* AlbumItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFB1BF51DEB56F600372198 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		3DFB1BF71DEB79EC00372198 /* AlbumItemsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumItemsPresenter.swift; sourceTree = "<group>"; };
+		3DFB1BF91DEB7A0000372198 /* AlbumItemsModuleProtocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumItemsModuleProtocols.swift; sourceTree = "<group>"; };
+		3DFB1BFB1DEB8BE200372198 /* AlbunsDataSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbunsDataSet.swift; sourceTree = "<group>"; };
+		3DFB1BFF1DEB940E00372198 /* AlbumCollectionViewHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlbumCollectionViewHeader.swift; sourceTree = "<group>"; };
+		3DFB1C0B1DEBD3F900372198 /* Video360VRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video360VRViewController.h; sourceTree = "<group>"; };
+		3DFB1C0C1DEBD3F900372198 /* Video360VRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Video360VRViewController.m; sourceTree = "<group>"; };
+		422609199BC38162819083D9 /* libPods-360player.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-360player.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		794CFD2B1F6D5AC3A76B0176 /* Pods-360player.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360player.release.xcconfig"; path = "Pods/Target Support Files/Pods-360player/Pods-360player.release.xcconfig"; sourceTree = "<group>"; };
+		BE976A618E036AFF7DEA998E /* Pods-360player.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-360player.debug.xcconfig"; path = "Pods/Target Support Files/Pods-360player/Pods-360player.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D1CF7631DE8E3CB00BEA21F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9E0B983CA2D03B7E744FE33 /* libPods-360player.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D1CF75D1DE8E3CB00BEA21F = {
+			isa = PBXGroup;
+			children = (
+				3D1CF7681DE8E3CB00BEA21F /* 360player */,
+				3D1CF7671DE8E3CB00BEA21F /* Products */,
+				4B6A3C60EBC8931422F60DC8 /* Pods */,
+				CEBA9570A86A4E03AC38C1C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3D1CF7671DE8E3CB00BEA21F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D1CF7661DE8E3CB00BEA21F /* 360player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D1CF7681DE8E3CB00BEA21F /* 360player */ = {
+			isa = PBXGroup;
+			children = (
+				3D1CF7821DEA7DFB00BEA21F /* Albuns */,
+				3DFB1C021DEBBE0100372198 /* PhotoVR */,
+				3DFB1BEE1DEB3CC200372198 /* Photos */,
+				3DFB1C011DEBBDFB00372198 /* VideoVR */,
+				3D1CF7691DE8E3CB00BEA21F /* AppDelegate.swift */,
+				3D1CF7701DE8E3CB00BEA21F /* Assets.xcassets */,
+				3D1CF77B1DE9C3A300BEA21F /* Bridging-Header.h */,
+				3D0054A61DED09EA00DC967C /* DateComponentsFormatter+Helper.swift */,
+				3D1CF7751DE8E3CB00BEA21F /* Info.plist */,
+				3D1CF7721DE8E3CB00BEA21F /* LaunchScreen.storyboard */,
+				3D1CF76D1DE8E3CB00BEA21F /* Main.storyboard */,
+				3DFB1BF51DEB56F600372198 /* Storyboard.swift */,
+			);
+			path = 360player;
+			sourceTree = "<group>";
+		};
+		3D1CF7821DEA7DFB00BEA21F /* Albuns */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1BFE1DEB8D8200372198 /* Model */,
+				3DFB1BFD1DEB8D7A00372198 /* UI */,
+				3D1CF7831DEA7E0B00BEA21F /* AlbunsInteractor.swift */,
+				3D1CF7851DEA7E1600BEA21F /* AlbunsModuleProtocols.swift */,
+				3D1CF7801DEA7DE800BEA21F /* AlbunsPresenter.swift */,
+			);
+			path = Albuns;
+			sourceTree = "<group>";
+		};
+		3DFB1BEE1DEB3CC200372198 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1BF31DEB4AB000372198 /* AlbumItemCollectionViewCell.swift */,
+				3DFB1BF91DEB7A0000372198 /* AlbumItemsModuleProtocols.swift */,
+				3DFB1BF71DEB79EC00372198 /* AlbumItemsPresenter.swift */,
+				3DFB1BEF1DEB3D3000372198 /* AlbumItemsViewController.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		3DFB1BFD1DEB8D7A00372198 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1BE81DEA8B0700372198 /* AlbumCollectionViewCell.swift */,
+				3DFB1BFF1DEB940E00372198 /* AlbumCollectionViewHeader.swift */,
+				3D1CF77E1DEA7DC700BEA21F /* AlbunsViewController.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		3DFB1BFE1DEB8D8200372198 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1BEA1DEB368B00372198 /* AlbumViewModel.swift */,
+				3DFB1BFB1DEB8BE200372198 /* AlbunsDataSet.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3DFB1C011DEBBDFB00372198 /* VideoVR */ = {
+			isa = PBXGroup;
+			children = (
+				3DFB1C0B1DEBD3F900372198 /* Video360VRViewController.h */,
+				3DFB1C0C1DEBD3F900372198 /* Video360VRViewController.m */,
+			);
+			path = VideoVR;
+			sourceTree = "<group>";
+		};
+		3DFB1C021DEBBE0100372198 /* PhotoVR */ = {
+			isa = PBXGroup;
+			children = (
+				3D0054A11DED024A00DC967C /* Photo360VRViewController.h */,
+				3D0054A21DED024A00DC967C /* Photo360VRViewController.m */,
+			);
+			path = PhotoVR;
+			sourceTree = "<group>";
+		};
+		4B6A3C60EBC8931422F60DC8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE976A618E036AFF7DEA998E /* Pods-360player.debug.xcconfig */,
+				794CFD2B1F6D5AC3A76B0176 /* Pods-360player.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CEBA9570A86A4E03AC38C1C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				422609199BC38162819083D9 /* libPods-360player.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D1CF7651DE8E3CB00BEA21F /* 360player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D1CF7781DE8E3CB00BEA21F /* Build configuration list for PBXNativeTarget "360player" */;
+			buildPhases = (
+				20F9D7F7DEEB33DF56FCF265 /* [CP] Check Pods Manifest.lock */,
+				3D1CF7621DE8E3CB00BEA21F /* Sources */,
+				3D1CF7631DE8E3CB00BEA21F /* Frameworks */,
+				3D1CF7641DE8E3CB00BEA21F /* Resources */,
+				0D5BFFDDD8AD5E584E46FAF5 /* [CP] Embed Pods Frameworks */,
+				83DD637E7D8A622D32B52CCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 360player;
+			productName = 360player;
+			productReference = 3D1CF7661DE8E3CB00BEA21F /* 360player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D1CF75E1DE8E3CB00BEA21F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = William;
+				TargetAttributes = {
+					3D1CF7651DE8E3CB00BEA21F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = R8DRDAPLCP;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3D1CF7611DE8E3CB00BEA21F /* Build configuration list for PBXProject "360player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D1CF75D1DE8E3CB00BEA21F;
+			productRefGroup = 3D1CF7671DE8E3CB00BEA21F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D1CF7651DE8E3CB00BEA21F /* 360player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D1CF7641DE8E3CB00BEA21F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1CF7741DE8E3CB00BEA21F /* LaunchScreen.storyboard in Resources */,
+				3D1CF7711DE8E3CB00BEA21F /* Assets.xcassets in Resources */,
+				3D1CF76F1DE8E3CB00BEA21F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5BFFDDD8AD5E584E46FAF5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-360player/Pods-360player-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20F9D7F7DEEB33DF56FCF265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-360player-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		83DD637E7D8A622D32B52CCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-360player/Pods-360player-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-360player/Pods-360player-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D1CF7621DE8E3CB00BEA21F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1CF7841DEA7E0B00BEA21F /* AlbunsInteractor.swift in Sources */,
+				3DFB1BF61DEB56F600372198 /* Storyboard.swift in Sources */,
+				3D1CF7811DEA7DE800BEA21F /* AlbunsPresenter.swift in Sources */,
+				3DFB1BF81DEB79EC00372198 /* AlbumItemsPresenter.swift in Sources */,
+				3D1CF77F1DEA7DC700BEA21F /* AlbunsViewController.swift in Sources */,
+				3D0054A71DED09EA00DC967C /* DateComponentsFormatter+Helper.swift in Sources */,
+				3D0054A31DED024A00DC967C /* Photo360VRViewController.m in Sources */,
+				3DFB1BEB1DEB368B00372198 /* AlbumViewModel.swift in Sources */,
+				3D1CF7861DEA7E1600BEA21F /* AlbunsModuleProtocols.swift in Sources */,
+				3DFB1C001DEB940E00372198 /* AlbumCollectionViewHeader.swift in Sources */,
+				3D1CF76A1DE8E3CB00BEA21F /* AppDelegate.swift in Sources */,
+				3DFB1BFA1DEB7A0000372198 /* AlbumItemsModuleProtocols.swift in Sources */,
+				3DFB1BE91DEA8B0700372198 /* AlbumCollectionViewCell.swift in Sources */,
+				3DFB1BFC1DEB8BE200372198 /* AlbunsDataSet.swift in Sources */,
+				3DFB1BF01DEB3D3000372198 /* AlbumItemsViewController.swift in Sources */,
+				3DFB1C0D1DEBD3F900372198 /* Video360VRViewController.m in Sources */,
+				3DFB1BF41DEB4AB000372198 /* AlbumItemCollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3D1CF76D1DE8E3CB00BEA21F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1CF76E1DE8E3CB00BEA21F /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		3D1CF7721DE8E3CB00BEA21F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D1CF7731DE8E3CB00BEA21F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D1CF7761DE8E3CB00BEA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3D1CF7771DE8E3CB00BEA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D1CF7791DE8E3CB00BEA21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE976A618E036AFF7DEA998E /* Pods-360player.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8DRDAPLCP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = 360player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william.-60player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "360player/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3D1CF77A1DE8E3CB00BEA21F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 794CFD2B1F6D5AC3A76B0176 /* Pods-360player.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = R8DRDAPLCP;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = 360player/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.william.-60player";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "360player/Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D1CF7611DE8E3CB00BEA21F /* Build configuration list for PBXProject "360player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1CF7761DE8E3CB00BEA21F /* Debug */,
+				3D1CF7771DE8E3CB00BEA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D1CF7781DE8E3CB00BEA21F /* Build configuration list for PBXNativeTarget "360player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D1CF7791DE8E3CB00BEA21F /* Debug */,
+				3D1CF77A1DE8E3CB00BEA21F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3D1CF75E1DE8E3CB00BEA21F /* Project object */;
+}
