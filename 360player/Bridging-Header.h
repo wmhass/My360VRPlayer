@@ -9,9 +9,6 @@
 #ifndef Bridging_Header_h
 #define Bridging_Header_h
 
-#import "GVRPanoramaView.h"
-#import "GVRWidgetView.h"
-#import "GVRVideoView.h"
 #import "Video360VRViewController.h"
 #import "Photo360VRViewController.h"
 
