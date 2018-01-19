@@ -58,7 +58,7 @@ To use this project, you will need the following instaled on your machine:
 
 #### Album items (Photos and videos) view
 
-* `AlbumItemsPresenter` - `Conforms to AlbumItemsUserInterfaceEventHandler`. Respond to events and drives a `AlbumItemsUserInterfaceProtocol`. Holds a `AlbumViewModel` view model and asks a view to display the album information and items.
+* `AlbumItemsPresenter` - Conforms to `AlbumItemsUserInterfaceEventHandler`. Responds to events and drives a `AlbumItemsUserInterfaceProtocol` user interface. Holds an `AlbumViewModel` view model and asks a view to display the album information and items.
 
 * UI
 	- `AlbumItemCollectionViewCell` - Subclass of `UICollectionViewCell` built to display an album item, such as a video or photo. It contains a thumbnail of the item, an icon indicating if it is a Favorite item or not, and if it is a video it shows its duration.
