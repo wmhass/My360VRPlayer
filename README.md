@@ -12,7 +12,7 @@ This project uses `cocoapods` to manage libraries dependencies. Although either 
 
 To use this project, you will need the following instaled on your machine:
 
-* Xcode 8 or later
+* Xcode 9 or later
 * iOS 9 or later
 * [CocoaPods](https://cocoapods.org/)
 
