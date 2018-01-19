@@ -1,8 +1,8 @@
 # My360VRPlayer for iOS
 
-[![My360VRPlayer](360player/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png)](https://itunes.apple.com/br/app/my-360vr-player/id1181451739){:target="_blank"}
+[![My360VRPlayer](360player/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png)](https://itunes.apple.com/br/app/my-360vr-player/id1181451739)
 
-[![My360VRPlayer App store](https://developer.apple.com//app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/br/app/my-360vr-player/id1181451739){:target="_blank"}
+[![My360VRPlayer App store](https://developer.apple.com//app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/br/app/my-360vr-player/id1181451739)
 
 ## Setting Up
 
