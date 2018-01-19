@@ -1,4 +1,4 @@
-# My360VRPlayer for iOS
+# My 360VR Player for iOS
 
 [![My360VRPlayer](360player/Assets.xcassets/AppIcon.appiconset/Icon-App-72x72@2x.png)](https://itunes.apple.com/br/app/my-360vr-player/id1181451739)
 
