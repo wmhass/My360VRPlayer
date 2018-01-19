@@ -60,17 +60,20 @@ To use this project, you will need the following instaled on your machine:
 
 * `AlbumItemsPresenter` - `Conforms to AlbumItemsUserInterfaceEventHandler`. Respond to events and drives a `AlbumItemsUserInterfaceProtocol`. Holds a `AlbumViewModel` view model and asks a view to display the album information and items.
 
-* `AlbumItemCollectionViewCell` - Subclass of `UICollectionViewCell` built to display an album item, such a video or photo. It contains a thumbnail of the item, an icon indicating if it is a Favorite item or not, and if it is a video it shows its duration.
+* UI
+	- `AlbumItemCollectionViewCell` - Subclass of `UICollectionViewCell` built to display an album item, such as a video or photo. It contains a thumbnail of the item, an icon indicating if it is a Favorite item or not, and if it is a video it shows its duration.
 
-* `AlbumItemsViewController` - Subclass of `UIViewController` and conforms to `AlbumItemsUserInterfaceProtocol`. Shows the title of the album and a list with the album items in a collection view.
+	- `AlbumItemsViewController` - Subclass of `UIViewController` and conforms to `AlbumItemsUserInterfaceProtocol`. Shows the title of the album and a list with the album items in a collection view.
 
 #### Photo Virtual Reality Viewer
 
-* `Photo360VRViewController.m` - Shows a photo in 360 degrees either Panorama and Spherical. Also provides a Virtual Reality mode that can be used to view the photo in Virtual Reality glasses such as Google Cardboard. Written in `Objective C` because of compatibilities with `GVR` SDK.
+* UI
+	- `Photo360VRViewController.m` - Shows a photo in 360 degrees either Panorama and Spherical. Also provides a Virtual Reality mode that can be used to view the photo in Virtual Reality glasses such as Google Cardboard. Written in `Objective C` because of compatibilities with `GVR` SDK.
 
 #### Video Virtual Reality Viewer
 
-* `Video360VRViewController.m` - Shows a video in 360 degrees either Panorama and Spherical. Also provides a Virtual Reality mode that can be used to view the video in Virtual Reality glasses such as Google Cardboard. Written in `Objective C` because of compatibilities with `GVR` SDK.
+* UI
+	- `Video360VRViewController.m` - Shows a video in 360 degrees either Panorama and Spherical. Also provides a Virtual Reality mode that can be used to view the video in Virtual Reality glasses such as Google Cardboard. Written in `Objective C` because of compatibilities with `GVR` SDK.
 
 #### `Bridging-Header.h`
 
