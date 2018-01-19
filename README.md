@@ -79,7 +79,7 @@ To use this project, you will need the following instaled on your machine:
 
 Import `Objective C` files to Swift. 
 
-* Importing `Video360VRViewController` and `Photo360VRViewController`, so `AlbumItemsViewController`, that is written in Swift, can launch them.
+* Importing `Video360VRViewController` and `Photo360VRViewController`, so the `AlbumItemsViewController`, which is written in Swift, can launch them.
 
 
 ## Talk to Me
